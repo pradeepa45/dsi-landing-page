@@ -73,6 +73,8 @@ const useStyles = makeStyles((theme) => ({
     },
     appbar: {
         color: '#fff',
+        flexGrow : 1,
+        width: '100%',
     },
     title: {
         [theme.breakpoints.up('md')]: {
@@ -111,6 +113,7 @@ const useStyles = makeStyles((theme) => ({
          lineHeight: '26px'
     },
     grid2 :{
+        width : 'fit-content',
         [theme.breakpoints.up('md')]:{
             padding : theme.spacing(6),
             paddingTop : 0,
@@ -120,7 +123,8 @@ const useStyles = makeStyles((theme) => ({
         [theme.breakpoints.down('md')]:{
             display : 'flex',
             flexDirection : 'column',
-            margin : theme.spacing(3),
+            marginLeft : theme.spacing(3),
+            marginBottom : theme.spacing(2),
         }
     },
     altImage : {
@@ -128,7 +132,7 @@ const useStyles = makeStyles((theme) => ({
             width : '420px'
         },
         [theme.breakpoints.down('md')]:{
-            width : '300px',
+            width : '250px',
         }
     }
 
@@ -197,7 +201,7 @@ export default function Services() {
             </div>
             <Grid container className={classes.grid2} spacing={2}>
                 <Grid item xs={12} sm={12} md={4}>
-                    <Grid container direction='column' className={classes.address}>
+                    <Grid container direction='column'>
                         <Grid item>
                             <img src={title} alt='logo'></img>
                         </Grid>
