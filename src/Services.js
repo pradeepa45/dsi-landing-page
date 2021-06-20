@@ -132,7 +132,7 @@ const useStyles = makeStyles((theme) => ({
             width : '420px'
         },
         [theme.breakpoints.down('md')]:{
-            width : '250px',
+            width : '300px',
         }
     }
 
