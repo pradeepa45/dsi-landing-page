@@ -80,7 +80,7 @@ const useStyles = makeStyles((theme) => ({
 
 function App() {
   const classes = useStyles();
-
+  document.title = "Dwidasa Samsara Indonesia (DSI)"
   return (
     <ThemeProvider theme={theme}>
       <nav className={classes.root}>

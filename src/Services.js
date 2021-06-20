@@ -114,11 +114,13 @@ const useStyles = makeStyles((theme) => ({
         [theme.breakpoints.up('md')]:{
             padding : theme.spacing(6),
             paddingTop : 0,
+            alignItems : 'flex-end',
+            justifyContent : 'center',
         },
-        [theme.breakpoints.down('sm')]:{
+        [theme.breakpoints.down('md')]:{
             display : 'flex',
             flexDirection : 'column',
-            margin : theme.spacing(2),
+            margin : theme.spacing(3),
         }
     },
     altImage : {
@@ -193,7 +195,7 @@ export default function Services() {
                     </Grid>
                 </Grid>
             </div>
-            <Grid container className={classes.grid2} justify='center' alignItems='flex-end'>
+            <Grid container className={classes.grid2} spacing={2}>
                 <Grid item xs={12} sm={12} md={4}>
                     <Grid container direction='column' className={classes.address}>
                         <Grid item>
