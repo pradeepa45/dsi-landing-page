@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/dsi-landing-page/static/css/main.897e5e67.chunk.css",
+    "main.js": "/dsi-landing-page/static/js/main.2490a33c.chunk.js",
+    "main.js.map": "/dsi-landing-page/static/js/main.2490a33c.chunk.js.map",
+    "runtime-main.js": "/dsi-landing-page/static/js/runtime-main.0457e5a0.js",
+    "runtime-main.js.map": "/dsi-landing-page/static/js/runtime-main.0457e5a0.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/dsi-landing-page/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.c6646be2.chunk.js": "/dsi-landing-page/static/js/2.c6646be2.chunk.js",
+    "static/js/2.c6646be2.chunk.js.map": "/dsi-landing-page/static/js/2.c6646be2.chunk.js.map",
+    "static/js/3.1d1d7ea3.chunk.js": "/dsi-landing-page/static/js/3.1d1d7ea3.chunk.js",
+    "static/js/3.1d1d7ea3.chunk.js.map": "/dsi-landing-page/static/js/3.1d1d7ea3.chunk.js.map",
+    "index.html": "/dsi-landing-page/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/dsi-landing-page/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.897e5e67.chunk.css.map": "/dsi-landing-page/static/css/main.897e5e67.chunk.css.map",
+    "static/js/2.c6646be2.chunk.js.LICENSE.txt": "/dsi-landing-page/static/js/2.c6646be2.chunk.js.LICENSE.txt",
+    "static/media/1313.f63a9652.svg": "/dsi-landing-page/static/media/1313.f63a9652.svg",
+    "static/media/cogwheel1.081aa29d.svg": "/dsi-landing-page/static/media/cogwheel1.081aa29d.svg",
+    "static/media/homeIcon.ea51ee59.svg": "/dsi-landing-page/static/media/homeIcon.ea51ee59.svg",
+    "static/media/mail.6a45e0d9.svg": "/dsi-landing-page/static/media/mail.6a45e0d9.svg",
+    "static/media/pana.1a1cece6.svg": "/dsi-landing-page/static/media/pana.1a1cece6.svg",
+    "static/media/pana2.3a4cd7b3.svg": "/dsi-landing-page/static/media/pana2.3a4cd7b3.svg",
+    "static/media/productServices.cfacbbaa.svg": "/dsi-landing-page/static/media/productServices.cfacbbaa.svg",
+    "static/media/shuffle.c1f44ecc.svg": "/dsi-landing-page/static/media/shuffle.c1f44ecc.svg",
+    "static/media/title-logo.32badece.svg": "/dsi-landing-page/static/media/title-logo.32badece.svg",
+    "static/media/verified1.4554c475.svg": "/dsi-landing-page/static/media/verified1.4554c475.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0457e5a0.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.c6646be2.chunk.js",
+    "static/css/main.897e5e67.chunk.css",
+    "static/js/main.2490a33c.chunk.js"
+  ]
+}
