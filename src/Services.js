@@ -9,12 +9,12 @@ import title from './title-logo.svg';
 import one from './productServices.svg';
 import two from './verified1.svg';
 import three from './cogwheel1.svg';
-import image from './1313.svg'
+import image from './altImage.svg'
 
 const theme = createMuiTheme({
     palette: {
         primary: {
-            main: '#EE4248',
+            main: '#6952DC',
         },
         secondary: {
             main: '#fff',
@@ -73,7 +73,7 @@ const useStyles = makeStyles((theme) => ({
     },
     appbar: {
         color: '#fff',
-        flexGrow : 1,
+        flexGrow: 1,
         width: '100%',
     },
     title: {
@@ -92,7 +92,7 @@ const useStyles = makeStyles((theme) => ({
     },
     titleText: {
         fontWeight: 700,
-        textAlign : 'center',
+        textAlign: 'center',
         [theme.breakpoints.up('md')]: {
             fontSize: '32px',
             lineHeight: '43px'
@@ -106,33 +106,41 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '24px',
         lineHeight: '28px',
         marginBottom: theme.spacing(2),
-        fontWeight : 600,
+        fontWeight: 600,
     },
     contactBody: {
         fontSize: '15px',
-         lineHeight: '26px'
+        lineHeight: '26px'
     },
-    grid2 :{
-        width : 'fit-content',
-        [theme.breakpoints.up('md')]:{
-            padding : theme.spacing(6),
-            paddingTop : 0,
-            alignItems : 'flex-end',
-            justifyContent : 'center',
+    grid2: {
+        width: 'fit-content',
+        [theme.breakpoints.up('md')]: {
+            padding: theme.spacing(8),
+            paddingTop: 0,
+            alignItems: 'flex-end',
+            justifyContent: 'center',
         },
-        [theme.breakpoints.down('md')]:{
-            display : 'flex',
-            flexDirection : 'column',
-            marginLeft : theme.spacing(3),
-            marginBottom : theme.spacing(2),
+        [theme.breakpoints.up('sm') && theme.breakpoints.down('md')]: {
+            padding: theme.spacing(4),
+            paddingTop: theme.spacing(2),
+            alignItems: 'flex-end',
+            justifyContent: 'center',
+        },
+        [theme.breakpoints.down('sm')]: {
+            display: 'flex',
+            flexDirection: 'column',
+            padding: 0,
+            marginLeft: theme.spacing(2),
+            marginBottom: theme.spacing(2),
+            alignItems: 'flex-start'
         }
     },
-    altImage : {
-        [theme.breakpoints.up('md')]:{
-            width : '420px'
+    altImage: {
+        [theme.breakpoints.up('md')]: {
+            width: '420px'
         },
-        [theme.breakpoints.down('md')]:{
-            width : '300px',
+        [theme.breakpoints.down('md')]: {
+            width: '300px',
         }
     }
 
@@ -148,7 +156,7 @@ function Item(props) {
                     <img src={props.img} alt='icon'></img>
                 </Grid>
                 <Grid item>
-                    <Typography color='primary' style={{fontWeight : 600}}>
+                    <Typography color='primary' style={{ fontWeight: 600 }}>
                         {props.title}
                     </Typography>
                     <Typography>
@@ -177,11 +185,25 @@ export default function Services() {
                     spacing={2}
                     className={classes.grid}>
                     <Grid item xs={12} sm={12} md={4} className={classes.textOne}>
-                        <Item
-                            img={one}
-                            title="Our Product"
-                            body="Our product is made on the base of our team’s careful research and analyses, ranging from internet based application."
-                        />
+
+                        <div style={{ height: '100%' }}>
+                            <Grid container direction='column' spacing={4}>
+                                <Grid item>
+                                    <img src={one} alt='icon'></img>
+                                </Grid>
+                                <Grid item>
+                                    <Typography color='primary' style={{ fontWeight: 600 }}>
+                                        Our Product
+                                    </Typography>
+                                    <Typography>
+                                        Our product is made on the base of our team’s careful research and analyses, ranging from internet based <br /> application.
+                                    </Typography>
+                                </Grid>
+                                <Grid item>
+                                    <Button variant='contained' color='primary' className={classes.button}>Read More</Button>
+                                </Grid>
+                            </Grid>
+                        </div>
                     </Grid>
                     <Grid item xs={12} sm={12} md={4} className={classes.textOne}>
                         <Item
@@ -216,7 +238,7 @@ export default function Services() {
                         </Grid>
                     </Grid>
                 </Grid>
-                <Grid item xs={12} sm={12} md={3}>
+                <Grid item sm={12} md={3} lg={4}>
                     <Grid container direction='column' spacing={2}>
                         <Grid item>
                             <Typography className={classes.contact}>

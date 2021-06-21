@@ -8,7 +8,7 @@ import panel from './pana.svg';
 const theme = createMuiTheme({
     palette: {
         primary: {
-            main: '#EE4248',
+            main: '#6952DC',
         },
         secondary: {
             main: '#fff',
@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
         }
     },
     spanClass: {
-        color: '#EE4248',
+        color: '#6952DC',
     },
     textOne: {
         padding: theme.spacing(2),
