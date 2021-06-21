@@ -34,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
     },
     spanClass: {
         color: '#6952DC',
+        fontWeight : 600,
     },
     textOne: {
         padding: theme.spacing(2),
