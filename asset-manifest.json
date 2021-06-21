@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dsi-landing-page/static/css/main.1adf6a8c.chunk.css",
-    "main.js": "/dsi-landing-page/static/js/main.df468db8.chunk.js",
-    "main.js.map": "/dsi-landing-page/static/js/main.df468db8.chunk.js.map",
+    "main.js": "/dsi-landing-page/static/js/main.eacd94d8.chunk.js",
+    "main.js.map": "/dsi-landing-page/static/js/main.eacd94d8.chunk.js.map",
     "runtime-main.js": "/dsi-landing-page/static/js/runtime-main.3cf06236.js",
     "runtime-main.js.map": "/dsi-landing-page/static/js/runtime-main.3cf06236.js.map",
     "static/css/2.b2e1e07e.chunk.css": "/dsi-landing-page/static/css/2.b2e1e07e.chunk.css",
@@ -32,6 +32,6 @@
     "static/css/2.b2e1e07e.chunk.css",
     "static/js/2.117d58c1.chunk.js",
     "static/css/main.1adf6a8c.chunk.css",
-    "static/js/main.df468db8.chunk.js"
+    "static/js/main.eacd94d8.chunk.js"
   ]
 }
